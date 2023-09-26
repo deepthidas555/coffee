@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 150px;
+    top: 0;
+    background-color: rgb(220, 153, 60);
+}
+
+.navbar p {
+    font-family: 'Black Ops One', cursive;
+    font-size: 700%;
+    margin-left: 20px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
+}
+.navbar img {
+    width: 110px;
+    margin-bottom: 20px;
+    /* margin-left: 70px; */
+    display: flex;
+}
+h6{
+    position: sticky;
+    top: 0;
+    background-color: rgb(220, 153, 60);
+    font-weight: bold;
+   
+}
+
+/* #home::before {
+    content: "";
+    position: absolute;
+} */
+body{
+    background-color: rgb(236, 208, 118);
+}
+.header1{
+  
+    font-size: 50px;
+}
+
+.content {
+    border: 1px solid rgb(48, 31, 19);
+    padding: 50px;
+    margin: 50px;
+    margin-left: 19%;
+    margin-right: 19%;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+.heading-type {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+#sec2{
+    padding: 5%;
+    font-size: 20px;
+}
+.pic1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 2%;
+}
+
+.brand-p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 100px;
+    margin-top: 25px;
+}
+h2{
+    display: block;
+}
+
+/* .img-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 10fr);
+    grid-gap: 40px;
+    background-color: rgb(220, 153, 60);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 19%;
+    padding-right: 19%;
+} */
+table tr td a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        width: 400px;
+        height: 300px;
+    }
+.navbar p{
+    font-size: 50px;
+}
+}
